@@ -1,0 +1,51 @@
+-- JAYELV1 Dupe
+-- Version: 1.0
+ 
+-- Instances:
+ 
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+ 
+--Properties:
+ 
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+ 
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(86, 28, 0)
+Frame.Position = UDim2.new(0.223897904, 0, 0.267932475, 0)
+Frame.Size = UDim2.new(0, 488, 0, 155)
+Frame.Active = true
+Frame.Draggable = true
+ 
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(38, 116, 116)
+TextLabel.Size = UDim2.new(0, 488, 0, 26)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "JAYEL V2"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 30.000
+ 
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 71)
+TextButton.Position = UDim2.new(0.295081973, 0, 0.335483879, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "CLICK ME"
+TextButton.TextColor3 = Color3.fromRGB(0, 84, 126)
+TextButton.TextSize = 50.000
+TextButton.MouseButton1Down:connect(function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Jayelpogi/JayelV1.0/main/DUPED%20V1",true))();
+end)
+ 
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextLabel_2.Position = UDim2.new(0, 0, 0.800000012, 0)
+TextLabel_2.Size = UDim2.new(0, 488, 0, 31)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "MADE BY JAYEL|ENJOY THE SCRIPT SHIT"
+TextLabel_2.TextColor3 = Color3.fromRGB(85, 255, 127)
+TextLabel_2.TextSize = 34.000
